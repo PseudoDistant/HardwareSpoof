@@ -1,38 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hardwarespoof",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Hardware Spoof",
+  "description": "Fake hardware info in F3 screen",
   "authors": [
-    "Me!"
+    "PseudoDistant"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "LGPLv3",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.pseudodistant.hardwarespoof.HardwareSpoof"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hardwarespoof.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": ">=1.17",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

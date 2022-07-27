@@ -1,0 +1,8 @@
+{
+  "hardwarespoof.mainscreen": "HardwareSpoof Config",
+  "hardwarespoof.gpuvendor": "GPU Vendor",
+  "hardwarespoof.gpu": "GPU",
+  "hardwarespoof.driver": "Platform",
+  "hardwarespoof.cpuvendor": "CPU Vendor",
+  "hardwarespoof.cpu": "CPU"
+}
